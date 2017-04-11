@@ -1,0 +1,948 @@
+@font-face {
+    font-family: "Neris";
+    src: url("..//fonts/neris-font/Neris-Black.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+	font-family: "Neris-light";
+	src: url("..//fonts/neris-font/Neris-Light.otf") format("opentype");
+
+}
+/* Global */
+html,
+body,
+header,
+footer,
+section{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+ul {
+	list-style: none;
+}
+.row {
+	margin: 0;
+}
+/* Header */
+nav {
+	margin: 10px 0;
+}
+.menu ul{
+	list-style: none;
+	display: inline-block;
+}
+.menu ul li {
+	display: inline-block;
+	padding-top: 25px;
+    padding-right: 25px;
+}
+.menu li a {
+	font-size: 22px;
+	font-family: "Neris";
+	color: rgb(20, 80, 190);
+	font-weight: bold;
+	line-height: 0.109;
+	text-align: center;
+}
+#logo{
+	display: inline-block;
+}
+#hamburgerMenu{
+    padding-right: 0;
+    padding-top: 10px;
+    text-align: right;
+    font-size: 22px;
+}
+.right{
+	display: inline-block;
+}
+.right .number {
+	font-size: 22px;
+	font-family: "Neris";
+	color: rgb(20, 80, 190);
+	font-weight: bold;
+	text-align: center;
+	margin-left: -15%;
+	padding-top: 25px;
+}
+.right #call {
+	background-color: rgb(20, 80, 190);
+	border-radius: 20px;
+	width: 210px;
+	height: 33px;
+	margin-left: -15%;
+}
+#call {
+	text-align: center;
+	padding: 10px 10px 10px 10px;
+	margin: 0;
+	font-size: 22px;
+	font-family: "Neris";
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	line-height: 0.109;
+	text-align: center;
+}
+#callOrder{
+	background: #23527c;
+	color: #fff;
+	border-radius: 20px 20px 20px 20px;
+	-moz-border-radius: 20px 20px 20px 20px;
+	-webkit-border-radius: 20px 20px 20px 20px;
+}
+#hamburgerMenu{
+	padding-right: 0;
+	padding-top: 10px;
+	text-align: right;
+	font-size: 22px;
+}
+#hamburgerMenu span{
+	cursor: pointer;
+}
+/* Showcase */
+#showcase{
+	background: #ffe400;
+	background: -moz-linear-gradient(left, #ffe400 0%, #ffe400 50%, #ffffff 50%, #ffffff 100%);
+	background: -webkit-linear-gradient(left, #ffe400 0%,#ffe400 50%,#ffffff 50%,#ffffff 100%);
+	background: linear-gradient(to right, #ffe400 0%,#ffe400 50%,#ffffff 50%,#ffffff 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe400', endColorstr='#ffffff',GradientType=1 );
+	height: 635px;
+}
+/* Showcase */
+#showcase{
+	background: url('..//img/Слой-15.jpg') no-repeat -300px;
+	height: 635px;
+	overflow-x: auto;
+
+}
+#showcase h1 {
+	font-size: 74.607px;
+	font-family: "Neris";
+	color: rgb(255, 255, 255);
+	line-height: 0.951;
+	text-align: left;
+	width: 565px;
+	height: 132.347px;
+	margin-left: 35px;
+}
+#showcase h2 {
+	font-size: 40px;
+	font-family: "Neris-light";
+	color: rgb(20, 80, 190);
+	line-height: 1.25;
+	text-align: left;
+	width: 470px;
+	height: 150px;
+	margin-left: 35px;
+}
+/* Form */
+#form{
+	height: 365px;
+	background: rgb(255,255,255);
+}
+.wrapper_info h3 {
+	font-family: "Neris";
+	font-size: 29.656px;
+	color: #1450be;
+	line-height: 1.363;
+	text-align: left;
+	font-weight: bold;
+}
+.wrapper_info span {
+	font-family: "Neris";
+	font-size: 29.656px;
+	color: #f90b0b;
+	line-height: 1.363;
+	text-align: left;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.wrapper_info ul li{
+	font-size: 29.656px;
+	font-family: "Neris-light";
+	color: rgb(20, 80, 190);
+	line-height: 1.315;
+	width: 287.611px;
+	text-align: left;
+	
+}
+.wrapper_info ul li:before {
+	content: "-";
+	position: relative;
+	left: -5px;
+}
+.wrapper_form{
+	position: relative;
+}
+.wrapper_form img{
+	position: absolute;
+	top: 60px;
+	left: 0;
+	z-index: 8;
+}
+.promo_form {
+	border-radius: 56px;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0px 3px 21px 0px rgba(0, 0, 1, 0.14);
+	width: 350px;
+	height: 112px;
+	margin: auto;
+	padding: 10px 5px 5px 5px;
+	position: relative;
+	z-index: 7;
+}
+.promo_form .first_promo{
+	font-size: 24px;
+	font-family: "Neris-light";
+	color: rgb(20, 80, 190);
+	font-weight: bold;
+	text-align: center;
+	margin: 0;
+}
+.promo_form .first_promo span {
+	font-size: 20px;
+	font-family: "Neris";
+	color: #f90b0b;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+}
+.promo_form .second_promo {
+	font-size: 40px;
+	font-family: "Neris";
+	color: #f90b0b;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+}
+/* Submit form */
+.submit_form{
+	background: rgb(255, 228, 0);
+	box-shadow: 0px 3px 21px 0px rgba(0, 0, 1, 0.14);
+	width: 416px;
+	height: 197px;
+	margin: 0 auto;
+}
+.submit_form input[type="text"] {
+	background: #ffffff;
+	width: 393px;
+	height: 45px;
+	color: #4373cb;
+}
+.submit_form input[placeholder] {
+	font-size: 24px;
+	font-family: "Neris-light";
+	color: rgb(20, 80, 190)!important;
+	line-height: 1.2;
+	border-radius: 20px;
+	border: none;
+	display: block;
+	text-align: center;
+	padding: 0 13px;
+	margin: 10px auto auto auto;
+}
+.submit_form input[type="submit"] {
+	background-color: #1450be;
+	width: 393px;
+	height: 45px;
+	border-radius: 20px;
+	border: 1px solid;
+}
+.submit_form input[value]{
+	font-size: 24px;
+	font-family: "Neris";
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	line-height: 1.2;
+	position: relative;
+	z-index: 0;
+	border: none;
+	margin: 10px;
+}
+/* Inner */
+.inner {
+	padding-top: 10px;
+	margin-top: 25px;
+}
+/* Achievements */
+#achievements {
+	background: rgb(20, 80, 190) no-repeat;
+	width: 100%;
+	text-align: center;
+ }
+  #achievements h2 {
+  padding-top: 30px;
+  font-size: 36px;
+  font-family: "Neris";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+ }
+ #achievements p {
+	font-size: 21px;
+	font-family: "Neris-light";
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	line-height: 1.2;
+}
+/* Company */
+#company {
+	width: 100%;
+	height: 760px;
+	text-align: center;
+}
+#company h2 {
+	padding-top: 40px;
+	font-size: 36px;
+	font-family: "Neris";
+	color: rgb(39, 96, 184);
+	line-height: 1.2;
+	text-align: center;
+}
+.profession p{
+	font-size: 20.354px;
+	font-family: "Neris-light";
+	color: rgb(38, 96, 184);
+	font-weight: bold;
+	line-height: 1.8;
+	vertical-align: top;
+}
+/* Services */
+#services{
+	width: 100%;
+	height: 840px;
+	background: rgb(20, 80, 190);
+	text-align: center;
+}
+.row_relative {
+	position: relative;
+}
+.services_row {
+	position: absolute;
+	top: 22px;
+}
+.square {
+	background: #eaeaea;
+	height: 85px;
+	position: relative;
+}
+#services h2{
+	font-size: 36px;
+	font-family: "Neris";
+	color: rgb(5, 94, 201);
+	line-height: 1.2;
+	margin-top: 15px;
+}
+.services p {
+	font-size: 24px;
+	font-family: "Neris-light";
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	line-height: 1.2;
+}
+.margin_row {
+	margin-top: 60px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.margin_row2 {
+	margin-top: 20px;
+}
+.final_row {
+	position: relative;
+}
+.final_absolute {
+	position: absolute;
+	top: 0;
+}
+/* Classify */
+#classify {
+	width: 100%;
+	height: 1065px;
+	background: rgb(255, 255, 255);
+	text-align: center;
+}
+#classify .container-fluid {
+	background: #eaeaea;
+	height: 85px;
+	position: relative;
+}
+#classify h2{
+	font-size: 36px;
+	font-family: "Neris";
+	color: rgb(0, 55, 188);
+	line-height: 1.2;
+    margin-top: 15px;
+}
+.margin_classify{
+	margin-top: 150px;
+}
+.classify{
+	border: 1px solid #2760b8;
+	box-shadow: 0px 3px 21px 0px rgba(0, 0, 1, 0.14);
+}
+.classify img {
+	width: 244px;
+	margin-left: -17px;
+}
+.classify h3{
+	font-size: 24px;
+	font-family: "Neris-light";
+	color: rgb(39, 96, 184);
+	font-weight: bold;
+	line-height: 1.2;
+}
+.classify p{
+	font-size: 16px;
+	font-family: "Neris-light";
+	color: rgb(39, 96, 184);
+	line-height: 2.063;
+	width: 220px;
+	height: 750px;
+	text-align: left;
+}
+.wrapper_line img{
+	display: block;
+	margin: 10px auto;
+}
+.wrapper_line hr{
+	margin: 7px 0;
+	background-color: #2760b8;
+	width: 95%;
+	height: 1px;
+}
+.count{
+	border-radius: 21px;
+	background-color: rgb(255, 228, 0);
+	width: 224px;
+	height: 45px;
+    margin: 0 30px;
+}
+.count p {
+	font-size: 16px;
+	font-family: "Neris-light";
+	color: rgb(39, 96, 184);
+	font-weight: bold;
+	line-height: 1.2;
+	text-align: center;
+	padding: 10px auto;
+ }
+ /* Warranty */
+#warranty {
+	height: 405px;
+	text-align: center;
+	background: url('..//img/Слой17_02.jpg') no-repeat -150px;
+	margin-top: 310px;
+}
+#warranty img {
+	width: 250px;
+	margin: 10%;
+}
+/* Price */
+#price {
+	height: 495px;
+	background: url('..//img/3Dremont.png') no-repeat -50px;
+	text-align: center;
+}
+#price h2{
+	font-size: 36px;
+	font-family: "Neris";
+	color: rgb(39, 96, 184);
+	margin: 0;
+}
+.house_info {
+	border: 2px solid rgb(5, 94, 201);
+	box-shadow: 0px 13px 46px 0px rgba(0, 0, 1, 0.1);
+	width: 850px;
+  	height: 480px;
+  	margin: 20px -15%;
+  	background: #ffffff;
+  	text-align: left;
+}
+.check h3 {
+	font-size: 20px;
+	font-family: "Neris";
+	color: rgb(0, 55, 188);
+	text-transform: uppercase;
+	text-align: left;
+}
+.check span {
+  font-size: 20px;
+  font-family: "Neris";
+  color: rgb(0, 55, 188);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  background: #ffe400;
+}
+.check ul {
+	padding-left: 0;
+	margin: 0;
+}
+.check li{
+	display: inline-block;
+	padding: 0;
+	width: 145px;
+}
+.check p{
+	display: inline-block;
+	font-size: 14px;
+	font-family: "Neris-light";
+	color: rgb(0, 55, 188);
+}
+.check_right {
+    background: rgb(20, 80, 190);
+    box-shadow: 0px 13px 29px 0px rgba(0, 0, 1, 0.22);
+    width: 300px;
+    height: 500px;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+}
+.check_right h3 {
+	font-size: 20px;
+	font-family: "Neris";
+	color: rgb(255, 255, 255);
+	line-height: 1.2;
+	text-align: center;
+}
+.check_right p {
+	font-size: 16px;
+	font-family: "Neris-light";
+	color: rgb(255, 255, 255);
+	text-align: center;
+	width: 285px;
+	margin: 0 auto;
+}
+.check_right span{
+	text-transform: uppercase;
+	color: #ff0000;
+	font-family: "Neris";
+	font-weight: bold;
+}
+.check_right img {
+    height: 320px;
+    margin-left: 10%;
+    position: absolute;
+}
+.check input[type="radio"] {
+	background: #ffffff;
+	border-width: 2px;
+	border-color: rgb(186, 186, 186);
+	border-style: solid;
+	border-radius: 50%;
+	width: 17px;
+	height: 17px;
+}
+.bottom {
+margin-top: 180px;
+position: relative;
+}
+.check_right input[type="text"] {
+	background: #ffffff;
+	width: 280px;
+	height: 45px;
+}
+.check_right input[placeholder],
+.check_right input[placeholder]
+{
+	font-size: 20px;
+	font-family: "Neris-light";
+	font-weight: bold;
+	-webkit-color: #2760b8!important;
+	border-radius: 20px;
+	border: none;
+	display: block;
+	text-align: center;
+	padding: 0 13px;
+	margin: 16px 0;
+}
+.check_right input[type="submit"] {
+	font-size: 20px;
+	background-color: #ffeb00;
+	width: 280px;
+	height: 45px;
+	border-radius: 20px;
+	border: none;
+	color: #2760b8;
+}
+.check_right input[value="Оставить Заявку"]{
+	font-size: 20px;
+	font-family: "Neris";
+	color: rgb(39, 96, 184);
+}
+.ellipse {
+	width: 500px;
+}
+/* Quote */
+#quote {
+	margin-top: 110px;
+	height: 290px;
+	background: #1450be;
+	text-align: center;
+}
+.quote .spec {
+	font-size: 30px;
+	font-family: "Neris-light";
+	color: rgb(255, 255, 255);
+	font-style: italic;
+	line-height: 1.1;
+	text-align: left;
+	width: 691px;
+	height: 55px;
+	padding: 80px;
+	margin: 0;
+}
+.quote h3 {
+	font-size: 24px;
+	font-family: "Neris";
+	color: rgb(255, 255, 255);
+	line-height: 1.2;
+	text-align: center;
+	margin: 0;
+}
+.quote .nobel {
+	font-size: 20px;
+	font-family: "Neris-light";
+	color: rgb(255, 255, 255);
+	text-align: center;
+	margin: 0;
+}
+.left_arrow, 
+.right_arrow {
+	padding-top: 120px;
+}
+.first_quote{
+	position: absolute;
+	left: 0;
+	top: 50px;
+}
+.second_quote {
+	position: absolute;
+	right: 0;
+}
+/* Quality */
+#quality {
+	height: 650px;
+	text-align: center;
+}
+#quality h2 {
+  font-size: 36px;
+  font-family: "Neris";
+  color: rgb(39, 96, 184);
+}
+.quality {
+	background: #eeeeee;
+}
+.quality img {
+	display: block;
+	margin: 0 auto;
+}
+.quality h3,
+.second_quality h3 {
+	font-size: 25px;
+	font-family: "Neris-light";
+	color: rgb(39, 96, 184);
+	font-weight: bold;
+}
+.quality p,
+.second_quality p  {
+	padding: 0 150px;
+	font-size: 20px;
+	font-family: "Neris-light";
+	color: rgb(39, 96, 184);
+}
+.workers {
+	margin-top: 70px;
+}
+.butler {
+	padding-top: 45px;
+}
+/* Business */
+#business {
+	margin-top: 105px; /* Надо удалить */
+	height: 895px;
+	background: #1450be;
+	text-align: center;
+}
+.business {
+	padding-top: 50px;
+}
+.business h2 {
+	border-width: 6px;
+	border-color: rgb(255, 235, 0);
+	border-style: dotted;
+	border-radius: 20px;		
+	width: 341px;
+	height: 58px;
+	padding: 10px 20px;
+}
+/* Media Queries */
+@media (max-width: 1220px) {
+	.right .number,
+	.right #call {
+		margin-left: -50%;
+	}
+	#price, #quote {
+		height: inherit;
+	}
+}
+@media (min-width: 650px) and (max-width: 990px) {
+	.wrapper_info {
+    	width: 50%;
+	}
+}
+@media (max-width: 989px) {
+	section {
+		overflow-x: hidden!important:;
+	}
+	#showcase h1 {
+		font-size: 46.607px;
+		width: inherit;
+	}
+	#showcase h2 {
+		font-size: 27px;
+		width: inherit;
+		margin-top: 25px;
+	}
+	#hamburgerMenuDiv a {
+		padding-top: 10px;
+		font-size: 22px;
+		font-family: "Neris";
+		color: rgb(20, 80, 190);
+		text-align: center;
+	}
+	#services {
+		height: inherit;
+	}
+	.wrapper_form img {
+		opacity: 0;
+	}
+	.wrapper_info h3 {
+		width: 100%;
+	}
+	.wrapper_info {
+		width: 100%;
+	}
+	.services_row,
+	.final_absolute  {
+		opacity: 0;
+	}
+	.margin_classify {
+		margin-top: 30px;
+	}
+	.classify img {
+		margin-left: -12px;
+	}
+	.house_info {
+		margin: initial;
+		width: inherit;
+		height: inherit;
+		margin-top: 25px;
+	}
+	#price {
+		background: #ffffff;
+	}
+	.left_arrow, .right_arrow {
+		opacity: 0;
+	}
+}
+@media (max-width: 865px) {
+	.check_right {
+		position: relative;
+    	margin-left: 25%;
+	}
+}
+@media (max-width: 550px) {
+	#showcase h2 {
+		margin-top: 180px;
+	}
+	#showcase {
+		height: inherit;
+		width: 100%;
+	}
+	#achievements {
+		margin-top: 100px;
+	}
+	.wrapper_info h3{
+		text-align: center!important;
+	}
+	.promo_form {
+		width: 420px;
+		height: 100px;
+	}
+	.promo_form .first_promo{
+		font-size: 20px;
+	}
+	.promo_form .second_promo {
+		font-size: 30px;
+	}
+	#company {
+		height: inherit;
+	}
+	.services_row,
+	.final_absolute  {
+		opacity: 0;
+	}
+	.promo_form {
+		width: 360px;
+		height: 105px;
+		margin-left: 35px;
+	}
+	.submit_form {
+		width: 300px;
+		height: 150px;
+		margin-left: 60px;
+	}
+	.submit_form input[type] {
+		width: 280px;
+		font-size: 16px;
+	}
+	.classify p {
+		width: 100%!important;
+		height: inherit!important;
+		text-align: justify;
+    }
+    .check_right input[type]{
+    	width: 250px;
+    	height: inherit;
+    }
+    .check_right {
+		margin-left: 15%;
+	}
+	.quality p, .second_quality p {
+		padding: 0;
+		font-size: 16px;
+	}
+	.quality h3, .second_quality h3 {
+		font-size: 22px;
+	}
+	.wrapper_info ul li {
+		font-size: 25px;
+		width: 100%;
+		text-align: center;
+	}
+	.wrapper_info ul {
+		padding: 0;
+	}
+	.wrapper_info span {
+		margin-left: 15%;
+	}
+	.submit_form {
+		height: inherit!important;
+	}
+
+}
+@media (min-width: 551px ) and (max-width: 768px) {
+	#company h2 {
+		padding: 0;
+		width: inherit;
+	}
+	#company {
+		height: 1270px;
+	}
+	.services_row,
+	.final_absolute  {
+		opacity: 0;
+
+	}
+}
+@media (max-width: 768px) {
+    #company {
+        height: inherit;
+    }
+    #company h2, #achievements h2, 
+    #classify h2, #services h2,
+    #price h2, #quality h2 {
+    	font-size: 25px;
+    }
+    #form, #classify {
+    	height: inherit;
+    }
+    .img_services {
+    	height: 120px;
+    }
+    .img_company {
+    	height: 70px;
+    }
+    .services p {
+    	font-size: 18px;
+    }
+    #achievements p,
+    .profession p {
+    	font-size: 14px;
+    }
+    .classify p {
+		width: 100%;
+		height: inherit;
+    }
+    .classify {
+		margin-top: 30px;
+    }
+    .count {
+    	width: inherit;
+    }
+    #warranty {
+    	margin-top: 0;
+    }
+    #warranty img {
+    	width: 190px;
+    	margin-top: 15%;
+    }
+    #price {
+    	background: #ffffff;
+    	height: inherit;
+    }
+    #quote {
+    	height: 610px;
+    }
+    .quote .spec {
+    	font-size: 25px;
+    	width: initial;
+    	margin-top: -50px;
+    }
+
+}
+@media (max-width: 400px) {
+	.wrapper_info ul li {
+		margin-left: 0;
+	}
+	.promo_form {
+		width: 280px;
+		height: 80px;
+		margin-left: -5px;
+	}
+	.submit_form {
+		width: 300px;
+		height: 150px;
+		margin-left: -20px;
+	}
+	.submit_form input[type]{
+		width: 280px;
+		font-size: 16px;
+	}
+	#warranty img {
+    	width: 160px;
+    	margin-top: 40%!important;;
+    }
+    .check_right {
+    margin-left: 5%!important;
+	}
+    .quote .spec {
+    	padding: 40px;
+    }
+    .butler {
+    padding-top: 145px;
+	}
+}
+@media (max-width: 320px) {
+	.img_services {
+    	height: 100px;
+    }
+    .check_right {
+    margin-left: -10%!important;
+    }
+}
